@@ -1,0 +1,114 @@
+.mainpage {
+      height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.score-section {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-section h4{
+    align-items: flex-end;
+    text-align: end;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score-display {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.minus {
+  background: #ff4d4f;
+  color: white;
+}
+
+.plus {
+  background: #4caf50;
+  color: white;
+}
+
+.apply {
+  margin-top: 20px;
+  background: #1890ff;
+  color: white;
+  font-size: 16px;
+}
+
+.history-section {
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-section h2 {
+  margin: 0 0 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+.no-history {
+  text-align: center;
+  padding: 10px;
+  color: #888;
+}
+
+.sort-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #555;
+  transition: color 0.2s ease;
+}
+
+.sort-btn:hover {
+  color: #1890ff;
+}
